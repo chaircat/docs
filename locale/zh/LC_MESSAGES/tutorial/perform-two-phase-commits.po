@@ -234,7 +234,7 @@ msgid ""
 "conditions."
 msgstr ""
 "在 ``transactions`` 集合里，查找处于 ``initial`` 状态的交易记录。目前 "
-"``transactions`` 即合理仅仅有一个文档，即在 :ref:`initialize-transfer-"
+"``transactions`` 集合里仅仅有一个文档，即在 :ref:`initialize-transfer-"
 "record` 一步中添加的那一个。如果集合中有更多的文档，除非你配置额外的查询条"
 "件，否则这个查询将返回任何 ``initial`` 状态的交易记录。"
 
